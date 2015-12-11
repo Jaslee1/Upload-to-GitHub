@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body {
+    margin:0 0 20px 0;
+    padding:0;
+    font-family:"Source Sans Pro", Arial, "Arial Black", "Arial Bold", "Arial Bold Italic", "Arial Italic", serif;
+	width:100%;
+	top:0px;
+	background-image:url(images/pat-01.png);
+}
+
+nav {
+	width: 100%;
+	height:40px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+#navigation a {
+	background-color:rgba(255,255,255,0.9);
+	text-decoration: none;
+	font: 16px 'ColaborateLightRegular', Arial, sans-serif;
+	text-indent: 10px;
+	margin: 0px;
+	padding: 0px;
+	color: rgb(53,75,118);
+	transition:background-color 1s, border-color .2s, top .2s, box-shadow .2s;
+	width:100%;
+}
+
+#navigation ul, #navigation li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navigation a:hover {
+	background-color: #83E1FF;
+	color: white;
+}
+
+#navigation .active {
+    background-color: #D6E13E;
+}
+/*content*/
+
+.part1 {
+	text-align:center;
+	padding:1em 2em;
+}
+
+.part2 {
+	padding:2em 4em;
+	background-color:#83E1FF;
+}
+
+.column1 {
+	float:left;
+	width:20em;
+	height:auto;
+	margin: 0 2em 2em 0;
+	clear:left;
+}
+
+.column1 img {
+	width:100%;
+	height:auto;
+	float:left;
+	margin:0em;
+	padding:0em;
+}
+
+.video {
+	text-align:center;
+}
+
+.form ol {
+	list-style-type: none;
+	padding-left:10em;
+}
+
+/*footer*/
+
+.nextbotton {
+	text-decoration:none;
+	display:block;
+	width: 10em;
+	padding: 1em 2em;
+	background-color:#610CEA;
+	color:#fff;
+	border-radius:1.5em;
+	text-align:center;
+	transition-property:background-color, color, letter-spacing, uppercase;
+	transition-duration: 1s;
+	transition-timing-function:ease-in, ease-out, linear, linear;
+	transition-delay:.3s, 0, 0, 0;
+	transition: transform 1s ease-in;
+}
+
+.nextbotton:hover {
+	background-color:#F7EB0F;
+	color:#000;
+	letter-spacing:3px;
+	text-transform:uppercase;
+	transform:translateY(-40px);
+}
+
+@media only screen and (min-width: 980px) {
+	
+}
+
+@media only screen and (max-width: 1920px) {
+
+}
+
+@media only screen and (max-width: 1680px) {
+	
+}
+
+@media only screen and (max-width: 1440px) {
+	
+}
+
+@media only screen and (max-width: 1366px) {
+	
+}
+
+@media only screen and (max-width: 1280px) {
+	
+}
+
+@media only screen and (max-width: 1220px) {
+	
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+}
+
+@media only screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 520px) {
+	
+}
+
+@media only screen and (max-width: 320px) {
+
+}
